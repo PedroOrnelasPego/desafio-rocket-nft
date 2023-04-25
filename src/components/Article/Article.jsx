@@ -43,7 +43,7 @@ const Article = () => {
         </div>
 
         <div className="banner">
-          <img src="/src/assets/banner.png" alt="" />
+          <img src="/assets/banner.png" alt="" />
         </div>
         
       </div>
