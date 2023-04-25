@@ -21,7 +21,7 @@ body {
   background-size: cover;
   color: var(--text-color);
   font-family: "Montserrat", sans-serif;
-  background: url(../src/assets/background.png);
+  background: url(/assets/background.png);
   background-repeat: no-repeat;
   background-size: 1920px 1186px;
   background-color: var(--body-background);

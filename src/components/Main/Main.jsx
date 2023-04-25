@@ -1,22 +1,22 @@
-import badge from "../../assets/badge.svg";
+import badge from "/assets/badge.svg";
 import "./Main.scss";
 
 const imagens = [
   {
     nome: "artista-1",
-    caminho: "../src/assets/artista-1.png",
+    caminho: "/assets/artista-1.png",
   },
   {
     nome: "artista-3",
-    caminho: "../src/assets/artista-3.png",
+    caminho: "/assets/artista-3.png",
   },
   {
     nome: "artista-6",
-    caminho: "../src/assets/artista-6.png",
+    caminho: "/assets/artista-6.png",
   },
   {
     nome: "artista-4",
-    caminho: "../src/assets/artista-4.png",
+    caminho: "assets/artista-4.png",
   },
 ];
 

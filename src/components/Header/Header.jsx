@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.scss";
-import logoMetaMask from '../../assets/logo_MetaMask.svg'
+import logoMetaMask from '/assets/logo_MetaMask.svg'
 
 const Header = () => {
   return (
