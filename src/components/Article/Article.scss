@@ -1,0 +1,65 @@
+.article {
+  display: flex;
+
+  .numbers-sales {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #5a5757;
+    border-bottom: 1px solid #5a5757;
+    padding: 140px 82px 140px 82px;
+    justify-content: center;
+
+    span {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+
+      color: #5a5757;
+    }
+
+    .numbers {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  }
+
+  .article-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+
+    .text {
+      display: flex;
+      gap: 170px;
+      margin-left: 90px;
+      margin-bottom: 70px;
+      p {
+        max-width: 384px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 64px;
+        margin-top: 78px;
+      }
+      a {
+        color: #fff;
+      }
+    }
+
+    .banner {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

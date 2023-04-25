@@ -1,0 +1,82 @@
+.card-popular {
+  margin-top: 180px;
+  h1 {
+    margin-bottom: 158px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    span {
+      color: #ff5b50;
+    }
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    .cosmonauta {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 34px;
+
+      .cosmonauta-nome {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+      }
+      img {
+        cursor: pointer;
+      }
+
+      .cosmonauta-id {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #5a5757;
+      }
+
+      .cosmonauta-value {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #ff5b50;
+      }
+    }
+
+    .astronautas {
+      display: flex;
+      flex-direction: column;
+
+      &:nth-child(1) {
+        border-right: 1px solid #5a5757;
+        padding-right: 400px;
+      }
+
+      &:nth-child(2) {
+        padding-left: 400px;
+      }
+
+      &:nth-child(3) {
+        border-right: 1px solid #5a5757;
+        padding-right: 400px;
+        padding-top: 40px;
+      }
+
+      &:nth-child(4) {
+        padding-left: 400px;
+        padding-top: 40px;
+      }
+    }
+  }
+}
